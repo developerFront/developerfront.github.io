@@ -1995,7 +1995,7 @@ header {
   border-top: 1px solid #4a4a50; }
 
 .fonBlock {
-  background-color: #F8FDFF; }
+  background-color: #f8fdff; }
 
 .logo {
   padding: 0;
@@ -2006,7 +2006,7 @@ header {
   float: left; }
 
 .head-rigt {
-  padding-top: 35PX;
+  padding-top: 35px;
   line-height: 0; }
 
 .phone p {
@@ -2026,20 +2026,20 @@ header {
   display: inline-block;
   font-size: 20px;
   padding: 0 10px;
-  border: 1px solid #2FA8DB;
+  border: 1px solid #2fa8db;
   border-radius: 30%; }
 
 .social_wrap ul {
   text-align: right; }
 
 .social_wrap li a {
-  color: #2FA8DB; }
+  color: #2fa8db; }
 
 .social_wrap li a:hover {
   color: #fff; }
 
 .social_wrap li:hover {
-  background-color: #2FA8DB; }
+  background-color: #2fa8db; }
 
 .slide-text {
   color: red;
@@ -2047,7 +2047,7 @@ header {
   bottom: 200px; }
 
 .slide-text h2 {
-  color: #2FA8DB;
+  color: #2fa8db;
   font-size: 32px;
   line-height: 1.3; }
 
@@ -2064,7 +2064,7 @@ header {
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: #2FA8DB; }
+  background: #2fa8db; }
 
 .owl-theme .owl-dots .owl-dot span {
   background: #fff; }
@@ -2091,20 +2091,18 @@ article h3 {
 .student_item {
   cursor: pointer;
   border: 1px solid #b4ccd6;
-  margin: 5px;
-  padding: 10px;
+  margin: 5px auto;
+  padding: 5px;
   -webkit-transition: 1.9s;
   -o-transition: 1.9s;
-  transition: 1.9s; }
+  transition: 1.9s;
+  min-width: 19%; }
 
-.col.student_item_active {
+.student_item_active {
   background-color: #f1fbff;
-  -webkit-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  transform: scale(1.5);
-  margin: 25px auto;
-  position: relative;
-  top: 10;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
   z-index: 1;
   -webkit-transition: 1.3s;
   -o-transition: 1.3s;
@@ -2113,15 +2111,19 @@ article h3 {
   box-shadow: 0 0 5px rgba(92, 156, 208, 0.5); }
 
 .student_item_name {
-  margin: 15px 0;
+  margin: 15px 0 -9px 0;
   font-weight: 600;
-  font-size: 18px; }
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center; }
 
 .student_item_text {
   font-size: 10px;
   color: #8e8c8c;
   line-height: 1.5;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: justify;
+  padding: 0 5px; }
 
 .student_item_photo img {
   width: 100%; }
@@ -2153,4 +2155,4 @@ footer {
   color: #ffffff; }
 
 .social-wrap-footer li a:hover {
-  color: #197CA6; }
+  color: #197ca6; }
