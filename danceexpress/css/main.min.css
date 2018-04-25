@@ -2146,6 +2146,9 @@ footer {
 .adress {
   line-height: 1.2; }
 
+.social-wrap-footer ul {
+  margin: 10px 0; }
+
 .social-wrap-footer li {
   display: inherit;
   font-size: 25px;

@@ -94,8 +94,14 @@ ul.ul_footer li {
 
 .social_wrap ul {
 	text-align: right;
-	margin: 10px 0 0 0;
+	margin: 25px 0 0 0;
 }
+ul.ul_footer {
+	text-align: left;
+	margin: -15px 0 0 5px;
+	padding: 5px;
+}
+
 }
 
 
