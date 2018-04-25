@@ -2006,13 +2006,14 @@ header {
   float: left; }
 
 .head-rigt {
-  padding-top: 35px;
+  padding-top: 15px;
   line-height: 0; }
 
 .phone p {
   font-size: 21px;
   font-weight: 600;
-  text-align: right; }
+  text-align: right;
+  margin: 20px 0; }
 
 .phone span {
   color: #888888;
@@ -2027,7 +2028,8 @@ header {
   border-radius: 30%; }
 
 .social_wrap ul {
-  text-align: right; }
+  text-align: right;
+  margin: 50px 0 0 0; }
 
 .social_wrap li a {
   color: #2fa8db; }
@@ -2155,10 +2157,9 @@ footer {
 .social-wrap-footer li a:hover {
   color: #197ca6; }
 
-span {
-  font-size: 0.8em;
+.dev {
   opacity: 0.4;
-  line-height: -4.5;
+  font-size: 0.8em;
+  padding-left: 12px;
   position: relative;
-  top: -25px;
-  left: 12px; }
+  top: -25px; }
