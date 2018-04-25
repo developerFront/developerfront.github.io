@@ -37,8 +37,12 @@
 		
 	}
 
+	.reviews_student_block {
+		display: none;
+	}
 
-	
+
+
 }
 
 /* Small Devices, Tablets */

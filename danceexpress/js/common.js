@@ -25,5 +25,16 @@ $(document).ready(function() {
       $(".student_item").removeClass("student_item_active");
       $(this).addClass("student_item_active");
     }
-  });
+	});
+	
+	$(".reviews_student_text").on("click", function(){
+
+		if($(".reviews_student_block").css('display') == 'flex'){
+			$(".reviews_student_block").css('display', 'none');
+		}else{
+			$(".reviews_student_block").css('display', 'flex');
+
+		}
+	});
+	
 });
