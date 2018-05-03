@@ -1,12 +1,12 @@
 $(document).ready(function() {
   var owl = $(".owl-carousel");
   owl.owlCarousel({
-     items: 1
-    // loop: true,
-    // margin: 10,
-    // autoplay: false,
-    // autoplayTimeout: 5000,
-    // autoplayHoverPause: false
+     items: 1,
+     loop: true,
+     margin: 10,
+     autoplay: true,
+     autoplayTimeout: 5000,
+     autoplayHoverPause: true
   });
 
   $(".student_item").on("click", function() {
