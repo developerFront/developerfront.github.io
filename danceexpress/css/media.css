@@ -3,10 +3,10 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	.slide-text {
-		position: relative;
-		bottom: 150px;
-
-	}
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+}
 	.slide-text h2 {
     color: #2fa8db;
     font-size: 24px;
@@ -18,12 +18,7 @@
     color: white;
     font-style: italic;
 }	
-.owl-theme .owl-dots .owl-dot {
-  display: inline-block;
-  zoom: 1;
-  position: relative;
-  bottom: 170px;
-}
+
 }
 
 /* Medium Devices, Desktops */
@@ -55,6 +50,11 @@
 	 margin: 10px auto;
  }
 
+ .slide-text {
+	position: absolute;
+	bottom: 30px;
+	left: 50px;
+}
 }
 
 @media only screen and (max-width : 573px) {

@@ -49,24 +49,23 @@ strong {
 }
 
 @import "media"; // Always at the end
+
+
+
 // My styles
 header {
-  border-bottom: 1px solid rgb(152, 204, 226);
+  border-bottom: 1px solid #87CEED;
   padding: 10px 0;
   margin-bottom: 10px;
 }
 
-.head-banner {
-  text-align: center;
-  background-color: #84a7ee;
-  height: 150px;
-  border-top: 1px solid #4a4a50;
-}
 
 .fonBlock {
-  //background-color: #F4F8FF;
-  background-color: #f8fdff;
+	background-color: #F4FCFF;	
+
 }
+
+
 
 .logo {
   padding: 0;
@@ -91,7 +90,8 @@ header {
 }
 
 .phone span {
-  color: #888888;
+	color: #000;
+	opacity: 0.4;
   font-size: 12px;
 	font-weight: 400;
 }
@@ -102,7 +102,7 @@ header {
   display: inline-block;
   font-size: 20px;
   padding: 0 10px;
-  border: 1px solid #2fa8db;
+  border: 1px solid #2FA7DB;
   border-radius: 30%;
 }
 
@@ -112,7 +112,7 @@ header {
 }
 
 .social_wrap li a {
-  color: #2fa8db;
+  color: #2FA7DB;
 }
 
 .social_wrap li a:hover {
@@ -120,36 +120,24 @@ header {
 }
 
 .social_wrap li:hover {
-  background-color: #2fa8db;
+  background-color: #2FA7DB;
 }
 
-.slide-text {
-  position: relative;
-  bottom: 300px;
+
+.carousel{
+	position: relative;
 }
 
-.slide-text h2 {
-  color: #2fa8db;
-  font-size: 32px;
-  line-height: 1.3;
-}
-
-.slide-text p {
-  font-size: 16px;
-  color: rgb(255, 255, 255);
-  font-style: italic;
-}
-
-.owl-theme .owl-dots .owl-dot {
-  display: inline-block;
-  zoom: 1;
-  position: relative;
-  bottom: 230px;
+.owl-theme .owl-nav.disabled+.owl-dots {
+	margin: 0;
+	position: absolute;
+	left: 48%;
+	top: 90%;
 }
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: #2fa8db;
+  background: #2FA7DB;
 }
 
 .owl-theme .owl-dots .owl-dot span {
@@ -157,13 +145,27 @@ header {
 }
 
 
-.content {
-	margin-top: -180px;
+.slide-text {
+	position: absolute;
+	bottom: 200px;
+	left: 100px;
 }
+
+.slide-text h2 {
+  color: #2FA7DB;
+  font-size: 32px;
+  line-height: 1.3;
+}
+
+.slide-text p {
+  font-size: 16px;
+  color: #fff;
+  font-style: italic;
+}
+
 
 article {
 	padding: 35px  0;
-	margin: 25px 0;
 }
 
 article h3 {
@@ -202,7 +204,7 @@ article h3 {
   transform: scale(1.2);
   z-index: 1;
   transition: 1.3s;
-  box-shadow: 0 0 5px rgba(92, 156, 208, 0.5);
+  box-shadow: 0 0 5px rgba(47, 167, 219, 0.5);
 }
 
 .student_item_name {
@@ -235,7 +237,7 @@ article h3 {
 }
 
 footer {
-  background-color: #2fa8db;
+  background-color: #2FA7DB;
   padding: 30px 0 0 0;
   margin: 0;
 	color: #fff;
@@ -262,7 +264,8 @@ footer {
 }
 
 .social-wrap-footer li a:hover {
-  color: #197ca6;
+
+	color: #0F688E;
 }
 
 .dev {

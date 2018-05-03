@@ -1,12 +1,12 @@
 $(document).ready(function() {
   var owl = $(".owl-carousel");
   owl.owlCarousel({
-    items: 1,
-    loop: true,
-    margin: 10,
-    autoplay: true,
-    autoplayTimeout: 5000,
-    autoplayHoverPause: true
+     items: 1
+    // loop: true,
+    // margin: 10,
+    // autoplay: false,
+    // autoplayTimeout: 5000,
+    // autoplayHoverPause: false
   });
 
   $(".student_item").on("click", function() {
@@ -36,5 +36,14 @@ $(document).ready(function() {
 
 		}
 	});
+
+	// function carouselService() {
+	// 	$('.item').each(function() {
+	// 		var t = $(this),
+	// 		h = t.find('.slide-text').outerHeight();
+	// 		t.find('.carousel-pic').css('min-height', h);
+	// 	});
+	// };
+	// carouselService();
 	
 });

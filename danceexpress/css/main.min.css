@@ -1984,18 +1984,12 @@ strong {
 /*==========  Desktop First  ==========*/
 /*==========  Mobile First  ==========*/
 header {
-  border-bottom: 1px solid #98cce2;
+  border-bottom: 1px solid #87CEED;
   padding: 10px 0;
   margin-bottom: 10px; }
 
-.head-banner {
-  text-align: center;
-  background-color: #84a7ee;
-  height: 150px;
-  border-top: 1px solid #4a4a50; }
-
 .fonBlock {
-  background-color: #f8fdff; }
+  background-color: #F4FCFF; }
 
 .logo {
   padding: 0;
@@ -2016,7 +2010,8 @@ header {
   margin: 20px 0; }
 
 .phone span {
-  color: #888888;
+  color: #000;
+  opacity: 0.4;
   font-size: 12px;
   font-weight: 400; }
 
@@ -2024,7 +2019,7 @@ header {
   display: inline-block;
   font-size: 20px;
   padding: 0 10px;
-  border: 1px solid #2fa8db;
+  border: 1px solid #2FA7DB;
   border-radius: 30%; }
 
 .social_wrap ul {
@@ -2032,47 +2027,47 @@ header {
   margin: 50px 0 0 0; }
 
 .social_wrap li a {
-  color: #2fa8db; }
+  color: #2FA7DB; }
 
 .social_wrap li a:hover {
   color: #fff; }
 
 .social_wrap li:hover {
-  background-color: #2fa8db; }
+  background-color: #2FA7DB; }
+
+.carousel {
+  position: relative; }
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin: 0;
+  position: absolute;
+  left: 48%;
+  top: 90%; }
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #2FA7DB; }
+
+.owl-theme .owl-dots .owl-dot span {
+  background: #fff; }
 
 .slide-text {
-  position: relative;
-  bottom: 300px; }
+  position: absolute;
+  bottom: 200px;
+  left: 100px; }
 
 .slide-text h2 {
-  color: #2fa8db;
+  color: #2FA7DB;
   font-size: 32px;
   line-height: 1.3; }
 
 .slide-text p {
   font-size: 16px;
-  color: white;
+  color: #fff;
   font-style: italic; }
 
-.owl-theme .owl-dots .owl-dot {
-  display: inline-block;
-  zoom: 1;
-  position: relative;
-  bottom: 230px; }
-
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
-  background: #2fa8db; }
-
-.owl-theme .owl-dots .owl-dot span {
-  background: #fff; }
-
-.content {
-  margin-top: -180px; }
-
 article {
-  padding: 35px  0;
-  margin: 25px 0; }
+  padding: 35px  0; }
 
 article h3 {
   text-align: center;
@@ -2109,8 +2104,8 @@ article h3 {
   -webkit-transition: 1.3s;
   -o-transition: 1.3s;
   transition: 1.3s;
-  -webkit-box-shadow: 0 0 5px rgba(92, 156, 208, 0.5);
-  box-shadow: 0 0 5px rgba(92, 156, 208, 0.5); }
+  -webkit-box-shadow: 0 0 5px rgba(47, 167, 219, 0.5);
+  box-shadow: 0 0 5px rgba(47, 167, 219, 0.5); }
 
 .student_item_name {
   margin: 15px 0 -9px 0;
@@ -2137,7 +2132,7 @@ article h3 {
   width: 100%; }
 
 footer {
-  background-color: #2fa8db;
+  background-color: #2FA7DB;
   padding: 30px 0 0 0;
   margin: 0;
   color: #fff;
@@ -2158,7 +2153,7 @@ footer {
   color: #ffffff; }
 
 .social-wrap-footer li a:hover {
-  color: #197ca6; }
+  color: #0F688E; }
 
 .dev {
   opacity: 0.4;
