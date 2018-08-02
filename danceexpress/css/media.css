@@ -41,9 +41,7 @@
     width: 50%;
     text-align: center;
  }
- .student_item {
-	 margin: 10px auto;
- }
+
 
  .slide-text {
 	position: absolute;
@@ -91,6 +89,10 @@ ul.ul_footer {
 	text-align: left;
 	margin: -15px 0 0 5px;
 	padding: 5px;
+}
+
+.student_item .student_item_name p{
+	font-size: 60%;
 }
 
 }
