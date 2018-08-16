@@ -35,6 +35,7 @@
 <body>
 
 	<!-- Custom HTML -->
+	
 
 
 	<div class="container">
@@ -248,77 +249,90 @@
 			</div>
 		</div>
 
-		<div class="fonBlock">
-			<div class="container">
-				<article>
-					<h2>Обратная связь</h2>
-					<div class="row">
-						<div class="col send">
-							<div class="col-12">
-								<div id="map" class="map"></div>
-							</div>
-							<div class="col myForm">
-								<form action="https://formspree.io/lorde@mail.ru" method="POST" target="_blank">
-									<label  class="form-group">
-										<span class="color_element">*</span>
-										Ваше имя: 
-										<input type="text" name="name" placeholder="Ваше имя">
-									</label>
-									<label  class="form-group">
-										<span class="color_element">*</span>
-										Ваш E-mail: 
-										<input type="email" name="_replyto" placeholder="Ваш E-mail">
-									</label>
-									<label  class="form-group">
-										<span class="color_element">*</span>
-										Ваше сообщение: 
-										<textarea name="name"  placeholder="Ваше сообщен" data-validation-required-message="Вы не ввели сообщение"></textarea>
-									</label>
-									<button>ОТПРАВИТЬ</button>
+		<div id="send-now">
+			<!-- <button>Отправить Сообщение</button> -->
+			<button><img src="img/mail2.png" ></button>
+		</div>
 
-								</form>
-							</div>
-						</div>
+		<div class="send">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="blue-line"></div>
 					</div>
-				</article>
+				</div>	
 			</div>
+
+			<div id="map" class="map"></div>
+			
+			<div class="myForm" id="myFormId">
+				<div class="head-form">
+					<h2>Обратная связь</h2>
+					<button title="Close (Esc)" type="button" class="form-close">x</button>
+				</div>
+				<form action="https://formspree.io/lorde@mail.ru" method="POST" target="_blank">
+					<label  class="form-group">
+						<span class="color_element">*</span>
+						Ваше имя: 
+						<input type="text" name="name" placeholder="Ваше имя">
+					</label>
+					<label  class="form-group">
+						<span class="color_element">*</span>
+						Ваш E-mail: 
+						<input type="email" name="_replyto" placeholder="Ваш E-mail">
+					</label>
+					<label  class="form-group">
+						<span class="color_element">*</span>
+						Ваше сообщение: 
+						<textarea name="name"  placeholder="Ваше сообщен" data-validation-required-message="Вы не ввели сообщение"></textarea>
+					</label>
+					<button class="send-button">ОТПРАВИТЬ</button>
+
+				</form>
+			</div>
+
 		</div>
 	</div>
 
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-12 col-sm-10 align-self-center left_footer">
-					<div class="adress">
-						<p>КОНТАКТЫ: <br>
-							Краснодарский край г.Гулькевичи <br>
-						тел.: +7 (800) 988-98-98</p>
-					</div>
-					<div class="copy ">
-						<p>&copy DanceExpress. 2018. Все права защищены</p> 
-						<span class="dev">Разработка developerFront.com</span>
-					</div>
+
+
+
+</div>
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-sm-10 align-self-center left_footer">
+				<div class="adress">
+					<p>КОНТАКТЫ: <br>
+						Краснодарский край г.Гулькевичи <br>
+					тел.: +7 (800) 988-98-98</p>
 				</div>
-				<div class="col-12 col-sm-2">
-					<div class="social_wrap social-wrap-footer right_footer">
-						<ul class="ul_footer">
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#"><i class="fa fa-vk"></i></a></li>
-							<li><a href="#"><i class="fa fa-youtube"></i></a></li>
-						</ul>
-					</div>
+				<div class="copy ">
+					<p>&copy DanceExpress. 2018. Все права защищены</p> 
+					<span class="dev">Разработка developerFront.com</span>
+				</div>
+			</div>
+			<div class="col-12 col-sm-2">
+				<div class="social_wrap social-wrap-footer right_footer">
+					<ul class="ul_footer">
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-vk"></i></a></li>
+						<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
-	</footer>
+	</div>
+</footer>
 
 
 
-	<script src="libs/jquery/dist/jquery.min.js"></script>
-	<script src="libs/owlcarousel/owl.carousel.min.js"></script>
-	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key"></script>
-	<script src="js/common.js"></script>
+<script src="libs/jquery/dist/jquery.min.js"></script>
+<script src="libs/owlcarousel/owl.carousel.min.js"></script>
+<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key"></script>
+<script src="js/common.js"></script>
 
 </body>
 

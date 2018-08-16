@@ -103,6 +103,22 @@ ul.ul_footer {
 	.left_footer,.right_footer{
 		font-size: 80%;
 	}
+	#send-now button{
+		width: 70px;
+ 		height: 70px;
+	}
+	#send-now img{
+	 width: 80%;
+	}
+	#send-now{
+	 position:fixed;
+	 top: 10%;
+	 right: 3%;
+	 z-index: 2;
+	}
+
+}
+
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {

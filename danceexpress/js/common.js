@@ -1,6 +1,34 @@
 $(document).ready(function() {
 
-  $(".carousel .owl-carousel").owlCarousel({
+ /*var intervalID = setInterval(function(){
+   $("#send-now").animate({
+    'width': '+=10'
+  },500)
+   $("#send-now").animate({
+    'width': '-=10'
+  },500)
+
+ }, 500);*/
+
+  $(window).scroll(function(){ //исчезновение и появления кнопки "написать сообщение""
+    var win=$(window);
+    if(win.innerWidth() > 700){
+      if(win.scrollTop()>2000){
+       $('#send-now').fadeOut(700)
+      }else{
+       $('#send-now').fadeIn(900)
+      }
+    }if(win.innerWidth() < 700){
+      if(win.scrollTop()>1400){
+       $('#send-now').fadeOut(700)
+      }else{
+       $('#send-now').fadeIn(900)
+      }
+    }
+  });
+
+
+  $(".carousel .owl-carousel").owlCarousel({ //первая карусель(банер)
    items: 1,
    loop: true,
    margin: 10,
@@ -9,7 +37,7 @@ $(document).ready(function() {
    autoplayHoverPause: true
  });
 
-  $(".carousel2 .owl-carousel").owlCarousel({
+  $(".carousel2 .owl-carousel").owlCarousel({ //вторая карусель(отзывы)
    loop:true,
    margin:10,
    responsiveClass:true,
@@ -46,6 +74,14 @@ $(document).ready(function() {
 
 
 
+  $("#send-now").on("click", function(){  //типо якорной сылки
+    window.location.href = "#myFormId";
+  });
+
+
+
+
+
   $('.photo-popup-link').magnificPopup({type: 'image'}); // фото препода
 
 
@@ -61,7 +97,7 @@ $(document).ready(function() {
 // initMap() - функция инициализации карты
 function initMap() {
   // Координаты центра на карте. Широта: 56.2928515, Долгота: 43.7866641
-  var centerLatLng = new google.maps.LatLng(45.360068, 40.696435);
+  var centerLatLng = new google.maps.LatLng(45.360237, 40.695709);
   // Обязательные опции с которыми будет проинициализированна карта
   var mapOptions = {
     center: centerLatLng, // Координаты центра мы берем из переменной centerLatLng

@@ -261,6 +261,12 @@ article h2 {
 .map {
  width: 100%;
  height: 550px;
+
+}
+
+.blue-line{
+ border-top: 1px solid #87CEED;
+ padding-top: 10px;
 }
 
 .form-group {
@@ -278,19 +284,60 @@ article h2 {
  font-size: 12px;
  background-color: transparent;
 }
-.send{
+
+.send {
  position: relative;
-}
-.myForm{
- position: absolute;
- right: 10%;
- background-color: #F4FCFF;
- border: 1px solid #2FA7DB;
- top: 15%;
- width: 300px;
+
 }
 
-.myForm button{
+.myForm{
+ border-radius: 2%;
+ position: absolute;
+ background-color: #F4FCFF;
+ border: 1px solid #2FA7DB;
+ right: 10%;
+ top: 10%;
+ width: 300px;
+ padding: 15px;
+}
+
+.head-form{
+ line-height: 1;
+}
+
+button.form-close{
+ background: transparent;
+ border: 0;
+ color: #333;
+ display: block;
+ outline: none;
+ padding: 0;
+ box-shadow: none;
+
+}
+
+.form-close{
+ width: 44px;
+ height: 44px;
+ line-height: 44px;
+ position: absolute;
+ right: 0;
+ top: 1%;
+ text-decoration: none;
+ text-align: center;
+ opacity: 0.65;
+ filter: alpha(opacity=65);
+ padding: 0 0 18px 10px;
+ color: #FFF;
+ font-style: normal;
+ font-size: 20px;
+ font-family: Arial, Baskerville, monospace;
+ cursor: pointer;
+}
+.form-close:hover{
+ opacity: 1;
+}
+.myForm .send-button{
  border: none;
  color: #fff;
  line-height: 40px;
@@ -302,6 +349,43 @@ article h2 {
  float: right;
  background-color: #2FA7DB;
 }
+
+#send-now{
+ position:fixed;
+ top: 2%;
+ right: 5%;
+ z-index: 2;
+
+}
+
+#send-now button{
+ width: 120px;
+ height: 120px;
+ border-radius: 50%;
+ box-shadow: none;
+ outline: none;
+ border: 0;
+ color: #fff;
+ background-color: #2FA7DB;
+
+}
+
+#send-now button:hover{
+ cursor: pointer;
+ background-color: #0F688E
+}
+
+#send-now a{
+ text-decoration: none;
+ color: #fff;
+
+}
+
+#send-now img{
+ width: 80px;
+}
+
+
 
 
 //Footer BLOCK
