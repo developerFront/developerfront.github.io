@@ -1,23 +1,48 @@
 /*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1500px) {
+	.head-rigt{
+		padding-right: 5%;
+	}
+	#send-now{
+		right: 2%;	
+	}
+
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	.head-rigt{
+		padding-right: 12%;
+	}
+	#send-now{
+		right: 2%;	
+	}
+
+
 	.slide-text {
-    position: absolute;
-    bottom: 80px;
-    left: 50px;
-}
+		position: absolute;
+		bottom: 80px;
+		left: 50px;
+	}
 	.slide-text h2 {
-    color: #2fa8db;
-    font-size: 24px;
-    line-height: 1;
-}
+		color: #2fa8db;
+		font-size: 24px;
+		line-height: 1;
+	}
 
 	.slide-text p {
-    font-size: 12px;
-    color: white;
-    font-style: italic;
-}	
+		font-size: 12px;
+		color: white;
+		font-style: italic;
+	}	
+
+	#send-now button{
+		width: 80px;
+		height: 80px;
+	}
+	#send-now img{
+		width: 80%;
+	}
 
 }
 
@@ -28,128 +53,170 @@
 		display: none;
 	}
 
-
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 767px) {
-	.photo p{
-		text-align: center;
-	}
-	.photo img {
-    width: 50%;
-    text-align: center;
- }
-
-
- .slide-text {
-	position: absolute;
-	bottom: 30px;
-	left: 50px;
-}
-}
-
-@media only screen and (max-width : 573px) {
- .logo img {
-	width: 300px;
-	float: left;
-	padding: 15px 0 5px 15px;
-}
-
-.carousel {
-	display: none;
-}
-
-.photo img {
-	width: 90%;
-	text-align: center;
-}
-
-.align-self-center p {
-	text-align: justify;
-	padding: 0 10px;
-}
-
-ul.ul_footer {
-	text-align: left;
-	padding: 0;
-}
-ul.ul_footer li {
-	display: inline-block;
-	padding: 0 3px;
-	font-size: 2em;
-}
-
-.social_wrap ul {
-	text-align: right;
-	margin: 25px 0 0 0;
-}
-ul.ul_footer {
-	text-align: left;
-	margin: -15px 0 0 5px;
-	padding: 5px;
-}
-
-.student_item .student_item_name p{
-	font-size: 60%;
-}
-
-}
-
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-	.left_footer,.right_footer{
-		font-size: 80%;
-	}
-	#send-now button{
-		width: 70px;
- 		height: 70px;
-	}
-	#send-now img{
-	 width: 80%;
+	.head-rigt{
+		padding-right: 15%;
 	}
 	#send-now{
-	 position:fixed;
-	 top: 10%;
-	 right: 3%;
-	 z-index: 2;
+		right: 2%;	
+
+
 	}
 
-}
+	@media only screen and (max-width : 770px) {
+		.col-md-4{
+			width: 100%;
+		}
+		.myForm{
+			right: 6%;
+		}
+
+	}
+	/* Small Devices, Tablets */
+	@media only screen and (max-width : 767px) {
+		.photo p{
+			text-align: center;
+		}
+		.photo img {
+			width: 50%;
+			text-align: center;
+		}
+		.slide-text {
+			position: absolute;
+			bottom: 30px;
+			left: 50px;
+		}
+		.col-md-push-4{
+			left: 0;
+		}
+
+		.col-md-pull-4{
+			right:0;
+		}
 
 
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-	
-}
+	}
+
+	@media only screen and (max-width : 573px) {
+		.logo img {
+			width: 300px;
+			float: left;
+			padding: 15px 0 5px 15px;
+		}
+
+		.carousel {
+			display: none;
+		}
+
+		.photo img {
+			width: 90%;
+			text-align: center;
+		}
+
+		.align-self-center p {
+			text-align: justify;
+			padding: 0 10px;
+		}
+
+		ul.ul_footer {
+			text-align: left;
+			padding: 0;
+		}
+		ul.ul_footer li {
+			display: inline-block;
+			padding: 0 3px;
+			font-size: 2em;
+		}
+
+		.social_wrap ul {
+			text-align: right;
+			margin: 25px 0 0 0;
+		}
+		ul.ul_footer {
+			text-align: left;
+			margin: -15px 0 0 5px;
+			padding: 5px;
+		}
+
+		.student_item .student_item_name p{
+			font-size: 60%;
+		}
+
+	}
 
 
-/*==========  Mobile First Method  ==========*/
+	/* Extra Small Devices, Phones */
+	@media only screen and (max-width : 480px) {
+		.left_footer,.right_footer{
+			font-size: 80%;
+		}
+		#send-now button{
+			width: 70px;
+			height: 70px;
+		}
+		#send-now img{
+			width: 80%;
+		}
+		#send-now{
+			position:fixed;
+			top: 10%;
+			right: 6%;
+			z-index: 2;
+		}
+		.myForm{
+			right: 13%;
+			top: 35%;
+		}
 
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-	
-}
+		.section .marker-right{
+			margin-top: 35px;
+		}
+		.section p{
+			margin: 0 15px;
+		}
+		.section	.personal_header{
+			text-align: center;
+			margin-bottom: 15px;
+		}
+		.section h3{
+			margin-bottom: 10px;
+		}
+		.s_descr_wrap .s_descr{
+			margin-bottom: 80px;
+		}
 
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-	
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-	
-}
+	}
 
 
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
+	/* Custom, iPhone Retina */
+	@media only screen and (max-width : 320px) {
 
-}
+	}
 
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
 
-}
+	/*==========  Mobile First Method  ==========*/
+
+	/* Custom, iPhone Retina */
+	@media only screen and (min-width : 320px) {
+
+	}
+
+	/* Extra Small Devices, Phones */
+	@media only screen and (min-width : 480px) {
+
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px) {
+
+	}
+
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+
+	}
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px) {
+
+	}

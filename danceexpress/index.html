@@ -42,23 +42,27 @@
 		<header>
 			<div class="head-top">
 				<div class="row">
-					<div class="col-12 col-sm-6 logo">						
+					<div class="col-12 col-sm-3 logo">						
 						<img src="img/logo+++.png" alt="">							
 					</div>
 					
-					<div class="col-12 col-sm-6 head-rigt">
+					<div class="col-12 col-sm-9 head-rigt">
 						<div class="phone">
 							<p>+7 (800) 988-98-98</p>
-							<p><a href="#"><span>Заказать обратный звонок</span></a></p>
-						</div>	
+							<p><a href="#"><span>Заказать обратный звонок</span></a></p> 
+						</div> 
+						
 						<div class="social_wrap">
 							<ul>
 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 								<li><a href="#"><i class="fa fa-vk"></i></a></li>
 								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
 							</ul>
-						</div>
+						</div> 
 					</div>
+					<div id="send-now">
+						<button><img src="img/mail2.png" ></button>
+					</div>	
 				</div>
 			</div>
 		</header>
@@ -82,28 +86,64 @@
 
 	<div class="content">
 
-		<div class="container teacher">
+		<div class="container teacher section">
 			<article>
-				<h2>Преподаватель</h2>
-				<div class="row">
-					<div class="col-12 col-md align-self-center">
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor error iste asperiores pariatur nemo aliquid, aperiam natus dicta qui dolores harum inventore sunt facere id. Pariatur hic dolor fugit aperiam.</p>
-					</div>
-					<div class="col-12 col-md-4 photo">
-						<p><img src="img/lucy.jpg" alt="lucy"  class="photo-popup-link" href="img/lucy.jpg"></p>
-					</div>
-					<div class="col-12 col-md align-self-center">
-						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, voluptate nesciunt. Illo exercitationem dolor iste, ad ut ab minus distinctio accusamus quae doloribus. Facilis expedita fugit dolorem consequuntur magni incidunt!</p>
+				<div class="section_header">
+					<h2>Преподаватель</h2>
+					<div class="s_descr_wrap">
+						<div class="s_descr">
+							Познакомимся ближе
+						</div>
 					</div>
 				</div>
+				<div class="section_content">
+					<div class="row">
+						<div class="col-md-4 col-md-push-4">
+							<div class="photo">
+								<h3>Фото</h3>
+								<a href="#"><img src="img/lucy.jpg" alt="lucy"  class="photo-popup-link" href="img/lucy.jpg"></a>
+							</div>
+							
+						</div>
+						<div class="col-md-4 col-md-pull-4 ">
+							<h3>Немного о себе</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+						</div>
+						
+						<div class="col-md-4  marker-right">
+							<h3>Персональная информация</h3>
+							<h2 class="personal_header">Люси Петросова</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+						</div>
+					</div>
+				</div>
+				
 			</article>
 		</div>
 
 
-		<div class="fonBlock">
+		<div class="fonBlock section">
 			<div class="container">
 				<article>
-					<h2 class="reviews_student_text">Отзывы моих учеников</h2>
+					<!-- <h2 class="reviews_student_text">Отзывы моих учеников</h2> -->
+					<div class="section_header">
+						<h2>Отзывы</h2>
+						<div class="s_descr_wrap">
+							<div class="s_descr">
+								мои ученики
+							</div>
+						</div>
+					</div>
 					<div class="row">
 						<div class="col">
 							<div class="carousel2">
@@ -235,11 +275,19 @@
 
 
 
-		<div class="fonBlock_plus">
+		<div class="section">
 			<div class="container">
 				<article>
 					<div class="row">
 						<div class="col video">
+							<div class="section_header">
+								<h2>Медиа</h2>
+								<div class="s_descr_wrap">
+									<div class="s_descr">
+										Наше видео
+									</div>
+								</div>
+							</div>
 							<a target="_blank" href="video/День открытых дверей в D-FUSION 9 апреля 2016.mp4">
 								<video  controls="controls" poster="img/poster2+.png" src="video/День открытых дверей в D-FUSION 9 апреля 2016.mp4"></video>
 							</a>
@@ -249,48 +297,48 @@
 			</div>
 		</div>
 
-		<div id="send-now">
-			<!-- <button>Отправить Сообщение</button> -->
-			<button><img src="img/mail2.png" ></button>
-		</div>
-
-		<div class="send">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="blue-line"></div>
-					</div>
-				</div>	
-			</div>
-
-			<div id="map" class="map"></div>
-			
-			<div class="myForm" id="myFormId">
-				<div class="head-form">
-					<h2>Обратная связь</h2>
-					<button title="Close (Esc)" type="button" class="form-close">x</button>
+		
+		<div class="fonBlock section">
+			<div class="send">
+				<div class="container">					
 				</div>
-				<form action="https://formspree.io/lorde@mail.ru" method="POST" target="_blank">
-					<label  class="form-group">
-						<span class="color_element">*</span>
-						Ваше имя: 
-						<input type="text" name="name" placeholder="Ваше имя">
-					</label>
-					<label  class="form-group">
-						<span class="color_element">*</span>
-						Ваш E-mail: 
-						<input type="email" name="_replyto" placeholder="Ваш E-mail">
-					</label>
-					<label  class="form-group">
-						<span class="color_element">*</span>
-						Ваше сообщение: 
-						<textarea name="name"  placeholder="Ваше сообщен" data-validation-required-message="Вы не ввели сообщение"></textarea>
-					</label>
-					<button class="send-button">ОТПРАВИТЬ</button>
+				<div class="section_header">
+					<h2>Контакты</h2>
+					<div class="s_descr_wrap">
+						<div class="s_descr">
+							Оставьте ваше сообщение
+						</div>
+					</div>
+				</div>
+				<div id="map" class="map"></div>
 
-				</form>
+				<div class="myForm" id="myFormId">
+					<div class="head-form">
+
+						<button title="Close (Esc)" type="button" class="form-close">x</button>
+					</div>
+					<form action="https://formspree.io/lorde@mail.ru" method="POST" target="_blank">
+						<label  class="form-group">
+							<span class="color_element">*</span>
+							Ваше имя: 
+							<input type="text" name="name" placeholder="Ваше имя">
+						</label>
+						<label  class="form-group">
+							<span class="color_element">*</span>
+							Ваш E-mail: 
+							<input type="email" name="_replyto" placeholder="Ваш E-mail">
+						</label>
+						<label  class="form-group">
+							<span class="color_element">*</span>
+							Ваше сообщение: 
+							<textarea name="name"  placeholder="Ваше сообщен" data-validation-required-message="Вы не ввели сообщение"></textarea>
+						</label>
+						<button class="send-button">ОТПРАВИТЬ</button>
+
+					</form>
+				</div>
+
 			</div>
-
 		</div>
 	</div>
 
@@ -302,7 +350,7 @@
 <footer>
 	<div class="container">
 		<div class="row">
-			<div class="col-12 col-sm-10 align-self-center left_footer">
+			<div class="col-12 col-sm-10  left_footer">
 				<div class="adress">
 					<p>КОНТАКТЫ: <br>
 						Краснодарский край г.Гулькевичи <br>

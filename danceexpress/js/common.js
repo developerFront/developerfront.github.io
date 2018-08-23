@@ -13,12 +13,12 @@ $(document).ready(function() {
   $(window).scroll(function(){ //исчезновение и появления кнопки "написать сообщение""
     var win=$(window);
     if(win.innerWidth() > 700){
-      if(win.scrollTop()>2000){
+      if(win.scrollTop()>1900){
        $('#send-now').fadeOut(700)
       }else{
        $('#send-now').fadeIn(900)
       }
-    }if(win.innerWidth() < 700){
+    }if(win.innerWidth() < 900){
       if(win.scrollTop()>1400){
        $('#send-now').fadeOut(700)
       }else{
